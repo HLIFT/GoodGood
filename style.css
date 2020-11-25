@@ -1,0 +1,660 @@
+/* Général */
+
+@font-face
+{
+    font-family: "Candy";
+    src: url("Candy Demo.otf");
+    src: url("Candy Demo.ttf");
+}
+
+body 
+{
+    background-color: rgb(255, 212, 242);
+}
+
+h1
+{
+    font-family: Candy;
+    font-size: 65px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+h2
+{
+    font-family: Candy;
+    text-align: left;
+    margin-left: 3%;
+    text-decoration: underline;
+}
+
+.rechercher
+{
+    color: rgb(39, 39, 39);
+    border-color: rgb(78, 78, 78);
+    background-color: rgb(255, 212, 242);
+}
+
+.rechercher:hover
+{
+    background-color: magenta;
+    border-color: rgb(78, 78, 78);
+}
+
+.connect
+{
+    margin-left: 5px;
+    color: rgb(39, 39, 39);
+    border-color: rgb(78, 78, 78);
+    background-color: rgb(255, 212, 242);
+}
+
+.connect:hover
+{
+    background-color: magenta;
+    border-color: rgb(78, 78, 78);
+}
+
+.panier
+{
+    margin-left: 5px;
+    color: rgb(39, 39, 39);
+    border-color: rgb(78, 78, 78);
+    background-color: rgb(255, 212, 242);
+}
+
+.panier:hover
+{
+    background-color: magenta;
+    border-color: rgb(78, 78, 78);
+}
+
+.icone-panier
+{
+    width: 24px;
+    height: 24px;
+}
+
+
+/* Index */
+
+.csscarousel
+{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banniere
+{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.texte
+{
+    text-align: left;
+    margin-left: 1%;
+    font-size: 18px;
+}
+
+.promo
+{
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.msg-bienvenue
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+.icone-connect
+{
+    align-content: flex-end;
+    margin-left: 2px;
+    width: 21px;
+    height: 21px;
+}
+
+/* Articles */
+
+.article1-title
+{
+    text-align: center;
+}
+
+.produit
+{
+    width: 50%;
+    color: rgb(39, 39, 39);
+    border-color: rgb(78, 78, 78);
+    background-color: rgb(196, 196, 196);
+}
+
+.produit:hover
+{
+    background-color: magenta;
+    border: none;
+}
+
+@media (max-width : 900px)
+{
+    .contenu_article
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.contenu_article
+{
+    display: flex;
+}
+
+.article1
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article1-text
+{
+    text-align: center;
+}
+
+/* Qui sommes-nous ? */
+
+.nous
+{
+    text-align: left;
+    text-indent: 1%;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+.marques
+{
+    text-align: left;
+    margin-left: 3%;
+}
+
+.map
+{
+    text-align: center;
+}
+
+.map iframe
+{
+    width: 400px;
+    height: 250px;
+}
+
+@media (max-width : 800px)
+{
+    .map iframe
+    {
+        text-align: center;
+        width: 100%;
+        height: 200px;
+
+    }
+}
+
+/*Page article */
+
+.titre
+{
+    background-color: #C0C0C0;
+    border:1px solid gray;
+    padding:5px;
+    box-shadow:2px 2px 10px gray; 
+    font-family: Candy;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.description
+{
+    text-align: left;
+    margin-left: 2%;
+}
+
+.sous-titre
+{
+    margin-left:2%;
+}
+
+.informations
+{
+    font-size:20px;
+    text-align: left;
+    margin-left:2%;
+}
+
+.list
+{
+    margin-left: 50%;
+}
+ 
+.presentation_article
+{
+    text-align: center;
+    display: flex;
+}
+
+ .chupa
+{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenu
+{
+    display: flex;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.contenu2
+{
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width : 900px)
+{
+    .contenu2
+    {
+        display: flex;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        flex-direction: column;
+    }
+
+    .avis-client
+    {
+        display: flex;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        flex-direction: column;
+    }
+
+}
+
+.test-art
+{
+    background-color: rgba(255, 192, 203, 0);
+    border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.sachet
+{
+    font-size: 13px;
+}
+
+.prix
+{
+    font-size: 25px;
+}
+
+.prix-kg
+{
+    font-size: 13px;
+}
+
+.ajout-panier
+{
+    color: rgb(39, 39, 39);
+    border-color: rgb(78, 78, 78);
+    background-color: rgb(255, 152, 224);
+    text-align: center;
+}
+
+.ajout-panier:hover
+{
+    background-color: magenta;
+    border-color: rgb(78, 78, 78);
+}
+
+.icone-panier2
+{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.avis
+{
+    margin-left: 2%;
+    font-size: 18px;
+}
+
+.comment
+{
+    width: 20%;
+    height: 15%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+
+.avis-client
+{
+    display: flex;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 2%;
+}
+
+.avis-client2
+{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(153, 153, 153, 0.466);
+    border: solid rgb(112, 112, 112) 1px;
+    padding: 1%;
+}
+
+.portrait
+{
+    text-align: center;
+    border-radius: 50%;
+}
+
+.avis-texte
+{
+    background-color: rgba(255, 192, 203, 0);
+    border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;   
+}
+
+ /* Se connecter */
+
+.connecter
+{
+    border: none;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: white;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-top: 3%;
+}
+
+.connecter h4
+{
+    margin-bottom: 5%;
+}
+
+.connec
+{
+    color: rgb(39, 39, 39);
+    border-color: rgb(78, 78, 78);
+    background-color: rgb(255, 212, 242);
+}
+
+.connec:hover
+{
+    background-color: magenta;
+    border-color: rgb(78, 78, 78);
+}
+
+.inscrire
+{
+    border: none;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 25%;
+}
+
+.inscrire h4
+{
+    margin-bottom: 5%;
+}
+
+.register
+{
+    color: rgb(39, 39, 39);
+    border-color: rgb(78, 78, 78);
+    background-color: rgb(255, 212, 242);
+}
+
+.register:hover
+{
+    background-color: magenta;
+    border-color: rgb(78, 78, 78);
+}
+
+.identifiez
+{
+    text-align: center;
+}
+
+@media (max-width : 800px)
+{
+    .connecter
+    {
+        border: none;
+        border-radius: 10px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: white;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 3%;
+
+    }
+
+    .inscrire
+    {
+        border: none;
+        border-radius: 10px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: white;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        width: 80%;
+    }
+}
+
+/* Panier */
+
+.testpan
+{
+    display: flex;
+}
+
+.pan
+{
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.pan-img
+{
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.pan-text
+{
+    font-size: 75%;
+}
+
+.pan-corb
+{
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pan-titre
+{
+    color: black;
+}
+
+.pan-titre:hover
+{
+    color: pink;
+    text-decoration: none;
+}
+
+.corbeille
+{
+    color: rgb(39, 39, 39);
+    border: none;
+    background-color: white;
+}
+
+.corbeille:hover
+{
+    background-color: pink;
+    border-color: white;
+}
+
+.icone-corbeille
+{
+    width: 25px;
+    height: 25px;
+}
+
+.total
+{
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.vide_panier
+{
+    color: rgb(39, 39, 39);
+    border: none;
+    background-color: white;
+    text-align: center;
+}
+
+.vide_panier:hover
+{
+    background-color: pink;
+    border-color: white;
+}
+
+.icone-corbeille2
+{
+    width: 22px;
+    height: 22px;
+    text-align: center;
+}
+
+.tot
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.pass-comm
+{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.commande
+{
+    color: rgb(39, 39, 39);
+    border: none;
+    background-color: white;
+    text-align: center;
+}
+
+.commande:hover
+{
+    background-color: pink;
+    border-color: white;
+}
+
+/* Commande */
+
+.formulaire
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.civilite
+{
+    text-align: left;
+    margin-left: 0%;
+}
+
+.confirmer
+{
+    color: rgb(39, 39, 39);
+    border: none;
+    background-color: white;
+    text-align: center;
+}
+
+.confirmer:hover
+{
+    background-color: pink;
+    border-color: white;
+}
+
+/* Commande passée */
+
+.merci
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.int
+{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+}

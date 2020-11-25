@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <title>GoodGood</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="logo.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+        <meta charset="UTF-8">
+    </head>
+    
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      GoodGood
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="qui_sommes_nous.html">Qui sommes-nous ?</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
+        <a href="articles.html" class="btn btn-outline-success my-2 my-sm-0 rechercher">Rechercher</a>
+      </form>
+      <form class="form-inline my-2 my-lg-0">
+        <a href="connecter.html" class="btn btn-outline-success my-2 my-sm-0 connect">Se connecter<img src="bonhomme.png" class="icone-connect" alt="icone-connect"></a>
+      </form>
+      <form class="form-inline my-2 my-lg-0">
+        <a href="panier.html" class="btn btn-outline-success my-2 my-sm-0 panier"><img src="panier.png" class="icone-panier" alt="icone-panier"></a>
+      </form>
+    </div>
+  </nav>
+
+    <h1>Vos coordonnees</h1>
+    <form class="formulaire">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+            <label for="inputEmail4">Prénom</label>
+            <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="form-group col-md-6">
+            <label for="inputPassword4">Nom</label>
+            <input type="password" class="form-control" id="inputPassword4">
+            </div>
+        </div>
+        <div class="form-group  civilite">
+            <label for="inputState">Civilité</label>
+            <select id="inputState" class="form-control">
+                <option selected>Sélectionner...</option>
+                <option>Madame</option>
+                <option>Monsieur</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Adresse</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress2">Complément d'adresse</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+            <label for="inputCity">Ville</label>
+            <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+            <label for="inputState">Pays</label>
+            <select id="inputState2" class="form-control">
+                <option selected>Sélectionner...</option>
+                <option>Belgique</option>
+                <option>France</option>
+                <option>Suisse</option>
+            </select>
+            </div>
+            <div class="form-group col-md-2">
+            <label for="inputZip">Code postal</label>
+            <input type="text" class="form-control" id="inputZip">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+                Rester connecté
+            </label>
+            </div>
+        </div>
+        <a href="commande_pasee.html" class="btn btn-outline-success my-2 my-sm-0 confirmer">Confirmer</a>
+        </form>
+
+
+
+  <!--Script Bootsrap-->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
